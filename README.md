@@ -66,7 +66,7 @@ A simplified cryptocurrency implementation demonstrating wallet generation, tran
 
 Repository: [openledger](https://github.com/faisalsardi-dev/openledger)
 
-## 🪙 ClickCrypto
+## 🪙 CLICrypto
 
 A lightweight command-line cryptocurrency tracker that retrieves live market data directly from CoinGecko.
 
