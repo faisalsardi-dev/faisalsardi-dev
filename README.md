@@ -29,30 +29,32 @@ Git
 
 #### What I'm Building Now
 
-**OrderBuilder v2**
+**Secure Image Object Store**
 
-A redesign of the AI ordering pipeline that:
+A backend-focused project exploring how modern object-storage systems handle user uploads securely and reliably.
 
-- Hardcodes order finalization outside the model
-- Uses structured JSON outputs rather than conversational assembly
-- Reduces agent complexity and increases determinism
-- Improves reliability for production-style ordering workflows
+Current areas of exploration:
 
-**Fine-tuning Qwen2.5-Coder-1.5B-Instruct (Attempt #2)**
+- Object storage architecture and file lifecycle management
+- Image validation and MIME-type verification
+- Detection of disguised or malformed uploads
+- Secure upload pipelines and access-control design
+- Metadata extraction and image-processing workflows
+- Modern security practices for user-generated content
 
-Current workflow:
-
-- Generate synthetic training data programmatically
-- Expand each training instance with multiple user prompt variations
-- Use multiple model/temperature combinations for dataset generation
-- Train using Unsloth on Camber-provided hardware through the GitHub Student Developer Pack
-- Deploy the resulting model through an existing Hugging Face inference endpoint
-
-Goal: produce a lightweight model specialized in menu-to-JSON order generation.
+Goal: build a secure image-storage service that combines backend engineering, cloud architecture, and security-focused design.
 
 ---
 
 # Current Featured Projects
+
+## 🚀 Kiosk Agent Order Maker — Enhanced Performance
+
+A research-driven evolution of the original OrderBuilder system.
+
+This project compares Prompting, RAG, and Fine-Tuning approaches for converting natural-language food orders into structured order JSON. It includes synthetic dataset generation, a reproducible evaluation harness, deployment infrastructure, and a fine-tuned Qwen3-8B model.
+
+Repository: [kioskagentordermaker-enhanced](https://github.com/faisalsardi-dev/kioskagentordermaker-enhanced)
 
 ## 🍔 OrderBuilder
 
